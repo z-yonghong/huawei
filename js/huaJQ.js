@@ -8,12 +8,32 @@ $(document).ready(function () {
         $(".container01").slideUp("slow");
     });
 
-    // if( $(".container01").slideDown("slow")) {
-    //     $("#Top01-left:first i").addClass("fa-rotate-180");
-    //  }
-    //  if($(".container01").slideUp("slow")){
-    //     $("#Top01-left:first i").removeClass("fa-rotate-180");
-    // }
+    $(".Top02-li01").hover(
+        function(){
+            $(".container03").slideDown("slow");
+            $(".container03").hover(
+                function () {
+                    $(".container03").slideDown("slow");
+                },
+                function () {
+                    $(".container03").slideUp("slow");
+                }
+            );
+        },
+        function(){
+            $(".container03").slideUp("slow");
+        }
+    );
+    $(".Top02-li02").hover(
+        function(){
+            $(".container04").slideDown("slow");
+        },
+        function(){
+            $(".container04").slideUp("slow");
+        }
+    );
+
+
 
 
 });

@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;;
 }
+body{
+    height:1200px;
+}
 #Top{
     width: 100%;
     height: 102px;
@@ -16,8 +19,8 @@
     height: 28px;
 
 }
-#Top01-in{
-    width: 73%;
+.Top-in{
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -103,11 +106,59 @@ padding: 16px 0;
     cursor: pointer;
     text-decoration: underline;
 }
-.Timg{
-    width: 16px;
-    height: 16px;
-    /*padding-top: 5px;*/
+.Top-in02{
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
+.Top02-img{
+    display: inline-block;
+}
+.Top02-img img{
+    width: 130px;
+    height: 30px;
+    margin: 21px 40px 20px 0;
+    vertical-align: middle;
+}
+.Top02-ul ,.Top02-ul ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+.Top02-ul ul{
+    border-right: 1.5px solid #cfcfd8;
+    margin-right: 40px;
+}
+.Top02-ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.Top02-ul li:hover {
+    color: red;
+}
+
+.phone{
+    width:33px;
+    height: 35px;
+}
+.Top02-ul img ,.Top02-ul span ,.Top02-ul i{
+    vertical-align: middle;
+}
+.Top02-ser{
+    display: inline-block;
+}
+.container03 ,.container04{
+    width: 100%;
+    height: 315px;
+    position: fixed;
+    left: 0px;
+    background:greenyellow;
+    display: none;
+}
+
+
 .tr1{
     display: inline-block;
     padding: 0 5px;
@@ -124,15 +175,45 @@ padding: 16px 0;
     text-decoration-line:underline;
     cursor:pointer;
 }
-@media screen and (max-width: 990px) {
-    #Top01{
-    background:red;
-}
-}
+/*@media screen and (max-width: 1205px) {*/
+    /*.corporate,.Top-in{*/
+    /*width: 80%;*/
+/*}*/
+/*}*/
+/*@media screen and (max-width: 1530px){*/
+    /*.Top02-ul li{*/
+    /*margin-right: 50px;*/
+    /*}*/
+    /*.Top02-ser{*/
+        /*margin-right: 23px;*/
+    /*}*/
+
+/*}*/
+/*@media screen and (max-width: 1510px){*/
+    /*.Top02-ul li{*/
+        /*margin-right:40px;*/
+    /*}*/
+    /*.Top02-ser{*/
+        /*margin-left: 15px;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 1420px){*/
+    /*.Top02-ul li{*/
+        /*margin-right:6px;*/
+    /*}*/
+    /*.Top02-ser{*/
+        /*margin-left: -1px;*/
+    /*}*/
+/*}*/
 #Top02{
 
     width: 100%;
     height: 74px;
     background: gold;
-    /*position: relative;*/
+}
+.car{
+    width: 90%;
+    height: 650px;
+    background:goldenrod;
+    margin: 0px auto;
 }
