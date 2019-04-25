@@ -32,7 +32,7 @@ window.onscroll=function () {
         };
     },20);
 };
-// var Top01_left=document.getElementById("Top01-left");
+
+// var Top01_left=document.getElementById("#Top01-left");
 // Top01_left.onclick=function () {
-//     document.getElementsByClassName("fa-angle-down")[0].className+="fa-rotate-180";
-// };
+//     document.getElementsByClassName(".banner")[0].style.paddingTop=263+"px";
