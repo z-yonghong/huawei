@@ -17,15 +17,15 @@ window.onscroll=function () {
         New = document.documentElement.scrollTop;
         if(Old>New){
             Top.style.top=-28+"px";
-            console.log('Old:'+Old);
-            console.log('New:'+New);
-            console.log('shanghua');
+            // console.log('Old:'+Old);
+            // console.log('New:'+New);
+            // console.log('shanghua');
         };
         if(Old<New){
             Top.style.top=-102+"px";
-            console.log('Old:'+Old);
-            console.log('New:'+New);
-            console.log('xiahua');
+            // console.log('Old:'+Old);
+            // console.log('New:'+New);
+            // console.log('xiahua');
         };
         if(Old<20){
             Top.style.top=0+"px";
@@ -33,6 +33,7 @@ window.onscroll=function () {
     },20);
 };
 
-// var Top01_left=document.getElementById("#Top01-left");
-// Top01_left.onclick=function () {
-//     document.getElementsByClassName(".banner")[0].style.paddingTop=263+"px";
+// document.getElementsByClassName(".banner")[0].style.paddingTop=263+"px";
+// var x=document.getElementsByClassName("Top-in02")[0].offset_x;
+// var container03=document.getElementsByClassName("container03")[0];
+// container03.style.paddingLeft=x+"px";
