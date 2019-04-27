@@ -255,7 +255,7 @@ padding: 16px 0;
 .container03-first img{
     border-radius: 5px;
 }
-.container03-liaoji{
+.container03-liaojie{
     width: 120px;
     height: 28px;
     background: red;
@@ -267,12 +267,19 @@ padding: 16px 0;
     left: 140px;
     top: -28px;
 }
+em , .container03-second div:hover p{
+    color: red;
+}
+.second-last:hover , .container03-right li:hover , .container03-right div:hover{
+    text-decoration:underline;
+}
 .container03-second{
     width: 65%;
     height: 100%;
     display: inline-block;
     background:hotpink;
 }
+
 .container03-second img{
     width: 80px;
 }
