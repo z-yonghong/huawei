@@ -33,7 +33,42 @@ window.onscroll=function () {
     },20);
 };
 
-// document.getElementsByClassName(".banner")[0].style.paddingTop=263+"px";
-// var x=document.getElementsByClassName("Top-in02")[0].offset_x;
-// var container03=document.getElementsByClassName("container03")[0];
-// container03.style.paddingLeft=x+"px";
+// window.onload=function () {
+//     var user=document.getElementsByClassName("user")[0];
+//     var qiye=document.getElementsByClassName("qiye")[0];
+//     var op=document.getElementsByClassName("op")[0];
+//     var yun=document.getElementsByClassName("yun")[0];
+//     var xun=document.getElementsByClassName("xun")[0];
+//     var fuwu=document.getElementsByClassName("fuwu")[0];
+//     user.onclick=function () {
+//         qiye.style.display="block";
+//         yun.style.display="none";
+//         fuwu.style.display="none";
+//     };
+//     op.onclick=function () {
+//         yun.style.display="block";
+//         qiye.style.display="none";
+//         fuwu.style.display="none";
+//     };
+//     xun.onclick=function () {
+//         fuwu.style.display="block";
+//         yun.style.display="none";
+//         qiye.style.display="none";
+//     };
+// };
+
+var mytab=document.getElementsByClassName("mytab")[0];
+var titles=mytab.getElementsByTagName("div");
+var myTabContent=document.getElementById("myTabContent");
+var divs=myTabContent.getElementsByTagName("div");
+for(var i=0;i<titles.length;i++){
+    titles[i].id=i;
+    titles[i].onclick=function () {
+        for(var j=0;j<titles.length;j++){
+            titles[i].className="";
+            divs[j].style.display="none";
+        }
+        titles[this.id].className="select";
+        divs[this.id].style.display="block";
+    }
+}
