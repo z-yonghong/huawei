@@ -57,18 +57,20 @@ window.onscroll=function () {
 //     };
 // };
 
-var mytab=document.getElementsByClassName("mytab")[0];
-var titles=mytab.getElementsByTagName("div");
-var myTabContent=document.getElementById("myTabContent");
-var divs=myTabContent.getElementsByTagName("div");
+
+
+
+
+var titles=document.getElementsByClassName("titles");
+var divs=document.getElementsByClassName("showw");
 for(var i=0;i<titles.length;i++){
     titles[i].id=i;
     titles[i].onclick=function () {
         for(var j=0;j<titles.length;j++){
-            titles[i].className="";
+            titles[j].style.borderBottom="0px solid red";
             divs[j].style.display="none";
         }
-        titles[this.id].className="select";
+        titles[this.id].style.borderBottom="3px solid red";
         divs[this.id].style.display="block";
     }
 }

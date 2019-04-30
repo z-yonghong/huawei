@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;;
 }
-body{
-    height:11200px;
-}
 #Top{
     width: 100%;
     height: 102px;
@@ -235,13 +232,20 @@ padding: 16px 0;
     padding-top: 103px;
     transition: all 1s;
 }
-.car{
-    width: 1500px;
-    margin: 0px auto;
-}
-.car img{
+.car-all{
     width: 100%;
+}
+.car{
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
 
+.car>div>img{
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
 }
 .container03-first{
     width: 32%;
@@ -345,4 +349,372 @@ em , .container03-second div:hover p{
     box-shadow: -30px 0px 96px #8080805c;
     position: relative;
     top: -100px;
+}
+.weilai{
+    width: 100%;
+    height: 880px;
+}
+.wei-con{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.wei-left{
+    width: 100%;
+    height: 470px;
+    background:#00bcd4;
+    position: relative;
+    left: -70px;
+}
+.wei-img{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.wei-img >img{
+    width: 270px;
+    cursor: pointer;
+}
+.wei-img p{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wei-img div{
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+.wei-img small{
+    color: white;
+    cursor: pointer;
+}
+.cc{
+    width: 40px;
+    margin-left: 10px;
+}
+.wei-img:hover .cc,.cc02:hover .cc,.hero-img02>div:hover .cc{
+    margin-left: 20px;
+}
+
+.wei-shouji img{
+    position: relative;
+    top: 70px;
+    left: -295px;
+}
+.wei-shouji:hover .wei-s1{
+    top:60px;
+}
+.wei-shouji:hover .wei-s2{
+    top: 80px;
+}
+.wei-right{
+    padding: 0;
+    background: #dde6ed;
+}
+.card >div>img{
+    width: 100%;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.yulin div:first-child{
+    font-size: 18px;
+    cursor: pointer;
+    color: #626161;
+}
+.yulin{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    min-height: 400px;
+}
+.yulin h1{
+    font-weight: 600;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+.yulin p {
+    font-size: 22px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.cc02 {
+    font-size: 22px;
+    position: relative;
+    top: 170px;
+    cursor: pointer;
+}
+.hero-all{
+    width: 100%;
+    height:558px;
+    margin-bottom: 130px;
+}
+.hero{
+    width: 90%;
+    height: 558px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.hero-in{
+    width: 1900px;
+    height: 100%;
+}
+.hero-img01{
+    width: 1520px;
+    height: 100%;
+    display: inline-block;
+}
+.hero-img01 img{
+    width:100%;
+    height: 100%;
+}
+.hero-img02 {
+    width: 370px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: -580px;
+    top: 100px;
+    vertical-align: top;
+    padding: 10px;
+}
+.hero-img02>div{
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+/*会展活动*/
+.zhanhui{
+    width: 100%;
+    padding-bottom: 120px;
+}
+.same-in{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+.same-first{
+    margin-bottom: 60px;
+}
+.same-first h2{
+    width: 65%;
+    display: inline-block;
+    font-weight: bold;
+    font-size:38px ;
+}
+.same-first span{
+    font-size: 22px;
+    color: #222222;
+    line-height: 62px;
+    position: relative;
+    left: 260px;
+    cursor: pointer;
+}
+.arrow{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.same-first span:hover  .arrow{
+    margin-left: 20px;
+}
+.zhanhui-second{
+    width: 100%;
+    height: 526px;
+}
+.zhanhui01-main{
+    background: #dce6ee;
+    margin: 80px -15px 20px 20px;
+    padding: 60px 60px 60px 100px;
+}
+.zhanhui01-1{
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
+    margin-bottom: 0;
+}
+.zhanhui01-2  h3{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 38px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.zhanhui01-2 span ,.zhanhui01-2 p{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+.zhanhui01-main>span{
+    margin-top: 40px;
+    display: block;
+    font-size: 22px;
+    line-height: 34px;
+    cursor: pointer;
+}
+.zhanhui01-main>span:hover .cc{
+    margin-left: 20px;
+}
+.zhanhui02 img{
+    width: 580px;
+    height: 570px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+/*成功故事*/
+.chenggong{
+    width: 100%;
+    height: 595px;
+    margin-bottom: 60px;
+}
+/*.chenggong-second{*/
+    /*width: 100%;*/
+    /*height:450px;*/
+    /*background: wheat;*/
+/*}*/
+.cheng-main{
+    width: 340px;
+    /*height: 350px;*/
+    margin: 0 auto;
+    background:#dde6ed;
+    border-radius: 5px;
+}
+.cheng-main>div>img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cheng-content{
+    height: 263px;
+    padding: 30px 40px 60px;
+    background: #dde6ed;
+}
+.name{
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    margin-bottom: 0;
+}
+.cheng-content h3,.xinwen-main h3{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.first{
+    font-size: 22px;
+    color: black;
+    position: relative;
+    bottom: -35px;
+}
+.second , .thirdd{
+    font-size: 22px;
+    color: black;
+    position: relative;
+    bottom: -70px;
+}
+.first:hover .cc , .second:hover .cc, .thirdd:hover .cc{
+    margin-left: 20px;
+}
+.cheng-main:hover .ctop{
+    position: relative;
+    left: -20px;
+}
+/*近期新闻*/
+.xinwen{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 130px;
+}
+.xinwen-in,.xinwen-img{
+    width: 100%;
+}
+.xinwen-img img{
+    width: 100%;
+}
+.xinwen-main{
+    padding: 30px 40px;
+    height: 266px;
+    background: #dde6ed;
+}
+.xinwen-right{
+    margin-left: 8%;
+}
+.xinwen-ul{
+    list-style: none;
+    margin: 0;
+    padding-right: 16.666%;
+}
+.xinwen-ul li:first-child{
+    padding-top: 0;
+}
+.xinwen-ul li{
+    padding-top: 80px;
+}
+.introduction{
+    color: #282828;
+    font-size: 21px;
+    line-height: 30px;
+}
+.footer{
+    width: 100%;
+    padding-top: 60px;
+    background: #f0f0f0;
+}
+.footer-first{
+    width: 78%;
+    margin: 0 auto;
+
+}
+.footer-ul{
+    list-style: none;
+}
+.footer-first h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-img{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-img li{
+    line-height: 50px;
+}
+.footer-img img{
+    width: 30px;
+}
+.footer-yiewu h3{
+    margin-left: 15px;
+}
+.footer-yiewu>div{
+    height: 73px;
+}
+.footer-yiewu>div>div{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-second{
+    width: 100%;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    margin-top: 60px;
+    background: black;
+}
+.footer-last{
+    width: 78%;
+    margin: 0 auto;
+}
+.footer-last div:last-child{
+    padding-left: 40%;
 }
