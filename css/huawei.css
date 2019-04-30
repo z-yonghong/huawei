@@ -144,7 +144,7 @@ padding: 16px 0;
     vertical-align: middle;
 }
 .T02-ul{
-    margin-right: 100px;
+    margin-right: 90px;
 }
 .T02-ul li{
     list-style: none;
@@ -172,6 +172,15 @@ padding: 16px 0;
 .Top02-ser{
     display: inline-block;
 }
+.Top02-ser img:last-child{
+    width: 35px;
+}
+.Top02-ser img:first-child{
+    width: 50px;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    display: none;
+}
 .container03 ,.container04{
     width: 100%;
 
@@ -196,36 +205,33 @@ padding: 16px 0;
     padding: 50px 160px 181px 20px;
 }
 
-/*@media screen and (max-width: 1205px) {*/
-    /*.corporate,.Top-in{*/
-    /*width: 80%;*/
-/*}*/
-/*}*/
-/*@media screen and (max-width: 1530px){*/
-    /*.Top02-ul li{*/
-    /*margin-right: 50px;*/
-    /*}*/
-    /*.Top02-ser{*/
-        /*margin-right: 23px;*/
-    /*}*/
+@media screen and (max-width: 1200px) {
+   #Top01{
+       display: none;
+   }
+    .Top-in02{
+        width: 100%;
+        background: gainsboro;
+    }
+    .Top02-img{
+        float: left;
+    }
+    .Top02-ul{
+        display: none;
+    }
+    .Top02-ser{
+        margin-top: 20px;
+        float: right;
+    }
+    .Top02-ser img{
+        display: inline-block;
+        float: right;
+    }
+    .Top02-ser img:first-child{
+        display: inline-block;
+    }
+}
 
-/*}*/
-/*@media screen and (max-width: 1510px){*/
-    /*.Top02-ul li{*/
-        /*margin-right:40px;*/
-    /*}*/
-    /*.Top02-ser{*/
-        /*margin-left: 15px;*/
-    /*}*/
-/*}*/
-/*@media screen and (max-width: 1420px){*/
-    /*.Top02-ul li{*/
-        /*margin-right:6px;*/
-    /*}*/
-    /*.Top02-ser{*/
-        /*margin-left: -1px;*/
-    /*}*/
-/*}*/
 
 /*主体*/
 .banner{
@@ -234,6 +240,7 @@ padding: 16px 0;
 }
 .car-all{
     width: 100%;
+    /*height: 620px;*/
 }
 .car{
     width: 90%;
@@ -244,8 +251,12 @@ padding: 16px 0;
 .car>div>img{
     border-radius: 10px;
 }
+.carousel-inner{
+    height: 620px;
+}
 .item img{
     width: 100%;
+    height: 620px;
 }
 .container03-first{
     width: 32%;
@@ -350,6 +361,7 @@ em , .container03-second div:hover p{
     position: relative;
     top: -100px;
 }
+/*未来影像*/
 .weilai{
     width: 100%;
     height: 880px;
@@ -447,6 +459,8 @@ em , .container03-second div:hover p{
     top: 170px;
     cursor: pointer;
 }
+
+/*--------*/
 .hero-all{
     width: 100%;
     height:558px;
@@ -717,4 +731,199 @@ em , .container03-second div:hover p{
 }
 .footer-last div:last-child{
     padding-left: 40%;
+}
+
+
+
+
+
+
+.hid{
+    width: 100%;
+    margin-top: 50px;
+    display: none;
+    /*background: gainsboro;*/
+}
+.hid01{
+    width: 100%;
+    padding: 35px;
+    height: 600px;
+    background:#00bcd4;
+}
+.hid-shouji{
+    position: relative;
+    top:-80px;
+}
+.hid-yinying{
+    position: relative;
+    left: -24%;
+    top: 220px;
+}
+.hid-sm{
+    position: relative;
+    bottom:50px;
+}
+.hid02{
+    width:100%;
+    /*height: 500px;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hid02-01 img{
+    width: 100%;
+    height: 520px;
+}
+.hid02-02{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #607d8b2e;
+    text-align: center;
+}
+.hid02-02 div{
+    font-size: 20px;
+}
+.hid02-02 h3{
+    font-weight: bold;
+}
+.hid02-02 p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.hid03{
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.hid04{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.hid04 img{
+    width: 100%;
+    height: 500px;
+}
+.hid-same h2{
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 20px;
+}
+.hid-same img{
+    width: 25px;
+}
+.hid05-main{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    background: lightsteelblue;
+}
+.hid05-01 img{
+    width: 330px;
+    height:300px;
+    position: relative;
+    top:-100px;
+}
+.hid05-02{
+    padding: 40px;
+    position: relative;
+    top:-70px;
+    height: 400px;
+}
+.hid05-02 div{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hid05-02 p{
+    font-size: 25px;
+    line-height: 30px;
+}
+.hid06-main{
+    width: 100%;
+    padding: 20px;
+}
+.hid06-01{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 60px;
+    background:#dde6ed;
+}
+.hid06-first{
+    width: 580px;
+    padding: 10px;
+    display: inline-block;
+}
+.hid06-second{
+    vertical-align: top;
+    display: inline-block;
+}
+.sa{
+    color: gray;
+    font-size: 18px;
+}
+.hid07{
+    width: 100%;
+}
+.hid07-main{
+    width: 100%;
+    margin-top: 40px;
+}
+.hid07-01 img{
+    width: 100%;
+}
+.hid07-02{
+    padding: 20px;
+    text-align: center;
+    background: #dde6ed;
+}
+.hid07-02 p{
+    font-size: 19px;
+    line-height: 35px;
+}
+/*.hid08{*/
+    /*height: 600px;*/
+    /*background: greenyellow;*/
+/*}*/
+.hid08-01{
+    padding: 20px;
+    margin: 20px 0;
+}
+.sa01{
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.sa02{
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+.hid09{
+
+   background:  #607d8b2e;
+}
+.hid09-01 img{
+    width: 30px;
+    margin:  20px;
+}
+.hid09-01 div{
+    width: 45%;
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1200px){
+    .wei-left{
+        width: 100%;
+        display: block;
+    }
+    .sshow{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
 }
